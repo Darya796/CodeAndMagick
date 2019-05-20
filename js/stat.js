@@ -14,6 +14,22 @@ var renderCloud = function (ctx, x, y, color) {
     ctx.fillRect(x, y, CLOUD_WIDTH, CLOUD_HEIGHT);
 };
 
+var getArraysOfTheSameLength = function (names, times) {
+    for (var j = 0; j < names.length; j++) {
+        if (names.length > 4) {
+            names.pop();
+            console.log(names);
+        }
+    }
+
+    for (var k = 0; k < times.length; k++) {
+        if (times.length > 4) {
+            times.pop();
+            console.log(times);
+        }
+    }
+};
+
 var getMaxElement = function (array) {
     var maxElement = array[0] || 0;
 
@@ -45,6 +61,8 @@ window.renderStatistics = function (ctx, players, times) {
 
 
     /*-----------------------------------------------------------------------------------------*/
+    getArraysOfTheSameLength (players, times);
+
     var maxTime = getMaxElement(times);
 
     for (var i = 0; i < players.length; i++) {
