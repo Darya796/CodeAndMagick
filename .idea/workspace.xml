@@ -4,6 +4,9 @@
     <list default="true" id="6f94e313-ee2f-4f44-8876-54875ab14e15" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/setup.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/setup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/stat.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/stat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/test.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,14 +15,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.8763006">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/stat.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1292">
-                  <caret line="61" selection-start-line="61" selection-end-line="61" />
+                <state>
+                  <caret column="13" selection-start-column="13" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/test.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="13" selection-start-column="13" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -27,30 +39,23 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/game.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="770">
-                  <caret line="528" column="45" selection-start-line="528" selection-start-column="8" selection-end-line="528" selection-end-column="45" />
+                <state relative-caret-position="1819">
+                  <caret line="107" selection-start-line="107" selection-end-line="107" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/js/test.js">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/index.html">
+            <entry file="file://$PROJECT_DIR$/js/setup.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="205">
-                  <caret line="152" column="62" lean-forward="true" selection-start-line="152" selection-start-column="62" selection-end-line="152" selection-end-column="62" />
+                <state relative-caret-position="721">
+                  <caret line="171" column="29" selection-start-line="171" selection-start-column="29" selection-end-line="171" selection-end-column="29" />
                   <folding>
-                    <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#svg#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#template#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="e#39#160#0" />
+                    <element signature="e#187#310#0" />
+                    <element signature="e#336#486#0" />
+                    <element signature="e#512#577#0" />
+                    <element signature="e#603#668#0" />
                   </folding>
                 </state>
               </provider>
@@ -59,12 +64,20 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/js/setup.js">
+            <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="780">
-                  <caret line="84" column="10" selection-end-line="84" selection-end-column="70" />
+                <state relative-caret-position="306">
+                  <caret line="76" column="29" selection-start-line="76" selection-start-column="29" selection-end-line="76" selection-end-column="29" />
+                  <folding>
+                    <element signature="n#svg#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#template#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -91,19 +104,19 @@
       <list>
         <option value="$PROJECT_DIR$/js/statistic.js" />
         <option value="$PROJECT_DIR$/js/stat_sample.js" />
+        <option value="$PROJECT_DIR$/js/legacy.js" />
+        <option value="$PROJECT_DIR$/js/test.js" />
         <option value="$PROJECT_DIR$/js/stat.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/legacy.js" />
         <option value="$PROJECT_DIR$/js/setup.js" />
-        <option value="$PROJECT_DIR$/js/test.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-1682" />
-    <option name="y" value="27" />
-    <option name="width" value="925" />
-    <option name="height" value="1044" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1670" />
+    <option name="y" value="30" />
+    <option name="width" value="1696" />
+    <option name="height" value="1036" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -113,7 +126,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,6 +142,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -170,18 +183,24 @@
       <workItem from="1558351062412" duration="45000" />
       <workItem from="1558351127925" duration="9317000" />
       <workItem from="1568116401440" duration="1235000" />
-      <workItem from="1569595773302" duration="6112000" />
+      <workItem from="1569595773302" duration="10855000" />
+      <workItem from="1569841906510" duration="2898000" />
+      <workItem from="1570193819865" duration="6019000" />
+      <workItem from="1573037102991" duration="3895000" />
+      <workItem from="1573051431324" duration="1827000" />
+      <workItem from="1573125635749" duration="4900000" />
+      <workItem from="1573477832839" duration="1585000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46294000" />
+    <option name="totallyTimeSpent" value="72161000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1682" y="27" width="925" height="1044" extended-state="0" />
+    <frame x="-1688" y="18" width="1696" height="1036" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.5468208" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0702934" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -194,7 +213,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32485548" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32235295" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -211,52 +230,56 @@
     <entry file="file://F:/[HTML Academy] Профессиональный Javascript, уровень 1/02 Встроенные API/02 Демо/06 Учебный проект статистика/Исходный код/index.html" />
     <entry file="file://$PROJECT_DIR$/js/statistic.js" />
     <entry file="file://$PROJECT_DIR$/Screenshot_1.png" />
-    <entry file="file://$PROJECT_DIR$/js/game.js">
+    <entry file="file://$PROJECT_DIR$/js/stat_sample.js" />
+    <entry file="file://$PROJECT_DIR$/js/stat.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="528" column="45" selection-start-line="528" selection-start-column="8" selection-end-line="528" selection-end-column="45" />
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/stat_sample.js">
+    <entry file="file://$PROJECT_DIR$/js/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306">
-          <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1819">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="152" column="62" lean-forward="true" selection-start-line="152" selection-start-column="62" selection-end-line="152" selection-end-column="62" />
+        <state relative-caret-position="306">
+          <caret line="76" column="29" selection-start-line="76" selection-start-column="29" selection-end-line="76" selection-end-column="29" />
           <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#svg#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#template#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/stat.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/setup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="84" column="10" selection-end-line="84" selection-end-column="70" />
+        <state relative-caret-position="721">
+          <caret line="171" column="29" selection-start-line="171" selection-start-column="29" selection-end-line="171" selection-end-column="29" />
+          <folding>
+            <element signature="e#39#160#0" />
+            <element signature="e#187#310#0" />
+            <element signature="e#336#486#0" />
+            <element signature="e#512#577#0" />
+            <element signature="e#603#668#0" />
+          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/test.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
