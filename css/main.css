@@ -628,6 +628,9 @@ input[type=radio]:checked + .review-mark-label {
 .setup-user-name:invalid {
   border: 2px solid red;
 }
+.setup-user-name:invalid:focus {
+  border-bottom: 2px solid red;
+}
 
 .setup-user-name:focus {
   border-bottom: solid 1px #000;
