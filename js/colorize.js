@@ -1,4 +1,3 @@
-//  фАЙЛ COLORIZE.JS
 'use strict';
 (function () {
     var COAT_COLORS_ARRAY = [
@@ -39,9 +38,7 @@
         // return [choosenColor, element];
     };
 
-    window.colorize = function (element, objectName, clickEvent) {
-
-        if(clickEvent) {
+    window.colorize = function (element, objectName) {
             element.addEventListener("click", function () {
                 var color = getRandomColor(objectName);
 
@@ -52,16 +49,5 @@
                     element.style.fill = color;
                 }
             });
-        }
-        else {
-            var color = getRandomColor(objectName);
-
-            if (element.tagName.toLowerCase() === "div") {
-                element.style.backgroundColor = color;
-            }
-            else {
-                element.style.fill = color;
-            }
-        }
     };
 })();

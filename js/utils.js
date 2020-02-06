@@ -1,4 +1,3 @@
-//  ФАЙЛ UTILS.JS
 'use strict';
 
 (function () {

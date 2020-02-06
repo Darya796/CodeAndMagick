@@ -1,4 +1,3 @@
-//  ФАЙЛ DIALOG.JS
 'use strict';
 
 (function () {
@@ -114,5 +113,31 @@
         } else {
             userNameInput.setCustomValidity("");
         }
+    });
+
+
+    /*--------------------------------------------------------------------------------*/
+    /*  ОТПРАВКА ДАННЫХ ИЗ ФОРМЫ  */
+
+    var form = userDialog.querySelector(".setup-wizard-form");
+
+    var onLoad = function (response) {
+        console.log(response);
+        userDialog.classList.add("hidden");
+    };
+
+    var onError = function (message) {
+        var node = document.createElement("div");
+        node.style = "z-index: 100; margin: 0 auto; text-align: center; background: red; font-size: 30px;";
+        node.style.position = "absolute";
+        node.style.left = 0;
+        node.style.right = 0;
+        node.textContent = message;
+        document.body.insertAdjacentElement("afterbegin", node);
+    };
+
+    form.addEventListener("submit", function (evt) {
+        evt.preventDefault();
+        window.backend.save(new FormData(form), onLoad, onError);
     });
 })();

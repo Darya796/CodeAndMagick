@@ -1,4 +1,3 @@
-//  ФАЙЛ SETUP.JS
 'use strict';
 
 (function () {
@@ -52,28 +51,45 @@
 
     };
 
-    generateWizardData();
+    // generateWizardData();
 
     var renderWizard = function (wizard) {
         var wizardElement = similarWizardTemplate.cloneNode(true);
 
         wizardElement.querySelector(".setup-similar-label").textContent = wizard.name;
-        window.colorize(wizardElement.querySelector(".wizard-coat"), "coat", false);
-        window.colorize(wizardElement.querySelector(".wizard-eyes"), "eyes", false);
-        // wizardElement.querySelector(".wizard-coat").style.fill = wizard.coatColor;
-        // wizardElement.querySelector(".wizard-eyes").style.fill = wizard.eyesColor;
+        // window.colorize(wizardElement.querySelector(".wizard-coat"), "coat", false);
+        // window.colorize(wizardElement.querySelector(".wizard-eyes"), "eyes", false);
+        wizardElement.querySelector(".wizard-coat").style.fill = wizard.colorCoat;
+        wizardElement.querySelector(".wizard-eyes").style.fill = wizard.colorEyes;
 
         return wizardElement;
     };
 
-    var fragment = document.createDocumentFragment();
+    var onLoad = function (wizards) {
+        var fragment = document.createDocumentFragment();
+        for (var i = 0; i < 4; i++) {
+            fragment.appendChild(renderWizard(wizards[i]));
+        }
+        similarListElement.appendChild(fragment);
+        userDialog.querySelector(".setup-similar").classList.remove("hidden");
+    };
 
-    for (var i = 0; i < arrayOfWizards.length; i++) {
-        fragment.appendChild(renderWizard(arrayOfWizards[i]));
-    }
+    var onError = function (message) {
+        var node = document.createElement("div");
+        node.style = "z-index: 100; margin: 0 auto; text-align: center; background: red; font-size: 30px;";
+        node.style.position = "absolute";
+        node.style.left = 0;
+        node.style.right = 0;
+        node.textContent = message;
+        document.body.insertAdjacentElement("afterbegin", node);
+    };
 
-    similarListElement.appendChild(fragment);
-    userDialog.querySelector(".setup-similar").classList.remove("hidden");
+    window.backend.load(onLoad, onError);
+
+
+
+
+
 
 
     /*--------------------------------------------------------------------------------*/
@@ -87,9 +103,9 @@
     // var fireballHiddenInput = document.querySelector("input[name='fireball-color']");
 
 
-    window.colorize(wizardCoatColor, "coat", true);
-    window.colorize(wizardEyesColor, "eyes", true);
-    window.colorize(wizardFireballColor, "fireball", true);
+    window.colorize(wizardCoatColor, "coat");
+    window.colorize(wizardEyesColor, "eyes");
+    window.colorize(wizardFireballColor, "fireball");
 
     // wizardCoatColor.addEventListener("click", function () {
     // let choosenCoatColor = COAT_COLORS_ARRAY[Math.floor(Math.random() * COAT_COLORS_ARRAY.length)];
