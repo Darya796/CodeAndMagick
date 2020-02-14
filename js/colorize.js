@@ -25,13 +25,13 @@
 
     var getRandomColor = function (element) {
         var choosenColor = "";
-        if(element === "coat") {
+        if (element === "coat") {
             choosenColor = COAT_COLORS_ARRAY[Math.floor(COAT_COLORS_ARRAY.length * Math.random())];
         }
-        else if(element === "eyes") {
+        else if (element === "eyes") {
             choosenColor = EYES_COLORS_ARRAY[Math.floor(EYES_COLORS_ARRAY.length * Math.random())];
         }
-        else if(element === "fireball") {
+        else if (element === "fireball") {
             choosenColor = FIREBALL_COLORS_ARRAY[Math.floor(FIREBALL_COLORS_ARRAY.length * Math.random())];
         }
         return choosenColor;
@@ -39,15 +39,13 @@
     };
 
     window.colorize = function (element, objectName) {
-            element.addEventListener("click", function () {
-                var color = getRandomColor(objectName);
+        var color = getRandomColor(objectName);
 
-                if (element.tagName.toLowerCase() === "div") {
-                    element.style.backgroundColor = color;
-                }
-                else {
-                    element.style.fill = color;
-                }
-            });
+        if (element.tagName.toLowerCase() === "div") {
+            element.style.backgroundColor = color;
+        }
+        else {
+            element.style.fill = color;
+        }
     };
 })();
