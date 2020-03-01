@@ -34,11 +34,14 @@ var getArraysOfTheSameLength = function (names, times) {
 };
 
 var getMaxElement = function (array) {
-    var maxElement = array[0] || 0;
+    var maxElement = (array) ? array[0] : 0;
+    // var maxElement = array[0] || 0;
 
-    for (var i = 0; i < array.length; i++) {
-        if (array[i] > maxElement) {
-            maxElement = array[i];
+    if (array) {
+        for (var i = 0; i < array.length; i++) {
+            if (array[i] > maxElement) {
+                maxElement = array[i];
+            }
         }
     }
 
@@ -63,6 +66,7 @@ window.renderStatistics = function (ctx, players, times) {
 
     getArraysOfTheSameLength(players, times);
 
+    // var maxTime = getMaxElement();
     var maxTime = getMaxElement(times);
 
     for (var i = 0; i < players.length; i++) {
