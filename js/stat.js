@@ -50,7 +50,7 @@ var getMaxElement = function (array) {
 
 var renderText = function (ctx, fontSize, text, x, y) {
     ctx.textBaseline = "hanging";
-    ctx.font = fontSize || 16 + 'px PT Mono';
+    ctx.font = fontSize + 'px PT Mono';
     ctx.fillStyle = "#000000";
 
     ctx.fillText(text, x, y);

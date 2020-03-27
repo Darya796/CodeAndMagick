@@ -33,12 +33,14 @@
     wizardCoatColor.addEventListener("click", function () {
         var newColor = getRandomElement(COAT_COLORS_ARRAY);
         this.style.fill = newColor;
+        document.querySelector("input[name='coat-color']").value = newColor;
         window.wizard.onCoatChange(newColor);
     });
     wizardEyesColor.addEventListener("click", function () {
         // window.colorize(wizardEyesColor, "eyes");
         var newColor = getRandomElement(EYES_COLORS_ARRAY);
         this.style.fill = newColor;
+        document.querySelector("input[name='eyes-color']").value = newColor;
         window.wizard.onEyesChange(newColor);
     });
     wizardFireballColor.addEventListener("click", function () {

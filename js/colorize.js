@@ -43,6 +43,7 @@
 
         if (element.tagName.toLowerCase() === "div") {
             element.style.backgroundColor = color;
+            element.querySelector("input[name='fireball-color']").value = color;
         }
         else {
             element.style.fill = color;
