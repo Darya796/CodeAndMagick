@@ -4,7 +4,7 @@
 
     window.backend = {
         load: function (onLoad, onError) {
-            var URL = "https://js.dump.academy/code-and-magick/data";
+            var URL = "https://javascript.pages.academy/code-and-magick/data";
 
             var xhr = new XMLHttpRequest();
             xhr.responseType = "json";
@@ -32,7 +32,7 @@
         },
 
         save: function (data, onLoad, onError) {
-            var URL = "https://js.dump.academy/code-and-magick";
+            var URL = "https://javascript.pages.academy/code-and-magick";
 
             var xhr = new XMLHttpRequest();
             xhr.responseType = "json";
